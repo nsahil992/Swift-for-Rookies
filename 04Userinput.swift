@@ -1,3 +1,7 @@
+print("Enter your name: ")
+let username = (readLine()!)
+print("Greetings for the day,",username)
+
 print("Please enter the first number: ")
 var num1 = Int(readLine()!)!
 print("Please enter the second number: ")
