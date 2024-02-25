@@ -1,23 +1,14 @@
-var str:String = "Sahil"
+let name = "Sahil"
+var age = 20
+print("Greetings for the day \(name). You are \(age) years old.")
 
-var a:Int = 100
-var b:Int = 1
-var c = a + b
+let day = "Friday"
+let temperature = 19
 
-let apple = 3
-let applesummary = "I have \(apple) apples."
+print("Today is \(day) and the temperature recorded is \(temperature)°C")
 
-let oranges = 5
-let fruitsummary = "I have total of \(apple) apples and \(oranges) oranges."
 
-print("My name is: ", str)
-print("The addition of a and b is: ", c)
 
-var f:Float = 92.29
-print("The value of float is: ",f)
 
-var t:Bool = true
-print(t)
-print(applesummary)
-print(fruitsummary)
+
 

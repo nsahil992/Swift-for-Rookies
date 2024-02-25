@@ -18,3 +18,9 @@ print("Double: ", d)
 var t:Bool = false
 print("Boolean: ", t)
 
+//Conversion
+let x = 50
+let y = 0.99
+let z = Double(x) + y
+print(z)
+
