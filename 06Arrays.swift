@@ -22,3 +22,9 @@ print(cartoons)
 // remove a element
 cartoons.remove(at:2)
 print(cartoons)
+
+// mixed array
+var anArray:[Any] = [99]
+anArray.append("Macbook")
+anArray.append(4.48938948)
+print(anArray)
