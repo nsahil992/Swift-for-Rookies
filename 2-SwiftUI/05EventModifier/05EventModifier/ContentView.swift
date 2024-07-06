@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    let fontSize: CGFloat = 100
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Image(systemName: "envelope.circle")
+            .font(Font.system(size: fontSize))
+            .onAppear(perform: {
+                print("Current size of the font is: \(fontSize)")
+            })
     }
 }
 
