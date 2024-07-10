@@ -14,6 +14,7 @@
 		BA07C90A2C3D7382006EF90D /* _8ScrollViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07C9092C3D7382006EF90D /* _8ScrollViewsTests.swift */; };
 		BA07C9142C3D7382006EF90D /* _8ScrollViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07C9132C3D7382006EF90D /* _8ScrollViewsUITests.swift */; };
 		BA07C9162C3D7382006EF90D /* _8ScrollViewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07C9152C3D7382006EF90D /* _8ScrollViewsUITestsLaunchTests.swift */; };
+		BA07C9232C3E4A16006EF90D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07C9222C3E4A16006EF90D /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		BA07C90F2C3D7382006EF90D /* 18ScrollViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 18ScrollViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA07C9132C3D7382006EF90D /* _8ScrollViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _8ScrollViewsUITests.swift; sourceTree = "<group>"; };
 		BA07C9152C3D7382006EF90D /* _8ScrollViewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _8ScrollViewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA07C9222C3E4A16006EF90D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				BA07C8FB2C3D7381006EF90D /* Assets.xcassets */,
 				BA07C8FD2C3D7381006EF90D /* _8ScrollViews.entitlements */,
 				BA07C8FE2C3D7381006EF90D /* Preview Content */,
+				BA07C9222C3E4A16006EF90D /* CardView.swift */,
 			);
 			path = 18ScrollViews;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA07C8FA2C3D737E006EF90D /* ContentView.swift in Sources */,
+				BA07C9232C3E4A16006EF90D /* CardView.swift in Sources */,
 				BA07C8F82C3D737E006EF90D /* _8ScrollViewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
