@@ -33,7 +33,7 @@ print(integerValues)  // [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 let numbers = [1,2,3,4,5]
 if numbers.contains(2) {
-    print("2 is present in numbers array")
+    print("2 is present in numbers array")    // 2 is present in numbers array
 }
 
 // Appending element in Empty Array
