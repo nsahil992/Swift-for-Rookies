@@ -17,3 +17,14 @@ print(cars)
 let automobile: Array = ["Tesla", "Volvo", "Range Rover", "Ferrari", "Audi A8l", "Maserati", "Maserati"]
 print(automobile)
 // output: ["Tesla", "Volvo", "Range Rover", "Ferrari", "Audi A8l", "Maserati", "Maserati"]
+
+
+// We cannot append value in a set instead, we insert value in a set
+
+var actors = Set<String>()
+actors.insert("Shahrukh Khan")
+actors.insert("Paresh Rawal")
+actors.insert("Bharat Jadhav")
+actors.insert("Ashok Saraf")
+actors.insert("Rajpal Yadav")
+print(actors)
