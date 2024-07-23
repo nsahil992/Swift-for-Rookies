@@ -1,14 +1,20 @@
 import Foundation
 
 func greetUser() {
-    print("Hi there!")
+    print("Hello user!")
 }
 
 greetUser()
 
-var greetCopy = greetUser()
-greetCopy
+var greetCopy = greetUser
+greetCopy()
 
-let sayHello = {(name: String) -> String in
-"Hi \(name)!"
+let sayHello = {
+    print("Saying Hello")
+}
+
+sayHello()
+
+let dessert = { (name: String) -> String in
+ "I love \(name)"
 }
