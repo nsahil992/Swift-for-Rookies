@@ -1,20 +1,25 @@
 import Foundation
 
-func greetUser() {
-    print("Hello user!")
+// Closures are functions without name
+
+var india = {
+    print("Welcome to Rajasthan 🐪")
 }
 
-greetUser()
+var myClosure: () -> () = {}
 
-var greetCopy = greetUser
-greetCopy()
+var numClosure: (Int) -> (Int) = {
+    (myNum: Int) -> Int in
+    return myNum + 1
+}
+print(numClosure(98))
 
-let sayHello = {
-    print("Saying Hello")
+var anotherClosure = { anotherNum in
+        return anotherNum + 10
 }
 
-sayHello()
+print(anotherClosure(19))
 
-let dessert = { (name: String) -> String in
- "I love \(name)"
-}
+// A Closure with only return type
+
+
