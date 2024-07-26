@@ -11,6 +11,30 @@ import Foundation
 
 // In enums, we can define a whole new type with a particular set of values inside. It is used for type safety and readability
 
+enum airplaneClass {
+    case economy, premiumEconomy, BusinessClass, FirstClass
+}
+
+var mySeat = airplaneClass.FirstClass
+
+if mySeat == .BusinessClass {
+    print("It's fine to travel")
+} else {
+    print("It's a First Class")
+}
+
+switch mySeat {
+case .FirstClass:
+    print("It's a very expensive")
+case .BusinessClass:
+    print("It's a luxury")
+case .premiumEconomy:
+    print("It has better facilites")
+case .economy:
+    print("Good for a first time traveller")
+}
+
+
 enum Weekday {
     case monday, tuesday, wednesday, thursday, friday, saturday, sunday
 }
