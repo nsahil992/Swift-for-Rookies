@@ -18,7 +18,6 @@ struct ContentView: View {
             
         }
         .stroke(.green, lineWidth: 10)
-        
     }
 }
 
