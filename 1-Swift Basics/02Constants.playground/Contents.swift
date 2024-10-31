@@ -1,7 +1,5 @@
 import Foundation
 
-import Foundation
-
 // When you want to name a value that is not going to change then you use constant and keyword is let.
 
 let name: String = "Sahil"
